@@ -9,7 +9,7 @@ def create_agent() -> Agent:
             "Agent to provide current weather information for a specified city."
         ),
         instruction=(
-            "You are a helpful agent who can tell the weather of a specified city."
+            "You are a helpful agent who can tell the weather of a specified city in a funny manner."
         ),
         tools=[get_weather],
     )
